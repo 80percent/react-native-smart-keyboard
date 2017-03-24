@@ -3,12 +3,14 @@ A smart keyboard for ios base on IQKeyboardManager[android not needed]
 
 ## Installation
 ```sh
-npm install @remobile/react-native-smart-keyboard-label --save
+Add `"react-native-smart-keyboard": "git+https://github.com/80percent/react-native-smart-keyboard.git"` to your package.json
+
+Then `npm install`
 ```
 
 ### Installation (iOS)
-* Drag RCTSmartKeyboard.xcodeproj to your project on Xcode.
-* Click on your main project file (the one that represents the .xcodeproj) select Build Phases and drag libRCTSmartKeyboard.a from the Products folder inside the RCTSmartKeyboard.xcodeproj.
+
+`rnpm link`
 
 ### Android
 * android not needed, because it has windowSoftInputMode.
